@@ -1042,7 +1042,11 @@ class AggregateITCase(
 
   /** test max2nd count **/
   @Test
+<<<<<<< HEAD
   @Ignore("https://aone.alibaba-inc.com/issue/14108512")
+=======
+  @Ignore("")
+>>>>>>> upstream/blink
   def testMax2nd(): Unit = {
     val sqlQuery = "SELECT c, max(a), max2nd(a) FROM MyTable GROUP BY c"
 

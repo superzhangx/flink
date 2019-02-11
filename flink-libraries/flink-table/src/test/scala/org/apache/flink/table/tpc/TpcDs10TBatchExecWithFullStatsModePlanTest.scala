@@ -50,7 +50,10 @@ object TpcDs10TBatchExecWithFullStatsModePlanTest {
       "q51", "q52", "q53", "q54", "q55", "q56", "q57", "q58", "q59", "q60",
       "q61", "q62", "q63", "q64", "q65", "q66", "q67", "q68", "q69", "q70",
       "q71", "q72", "q73", "q74", "q75", "q76", "q77", "q78", "q79",
+<<<<<<< HEAD
       // FIXME BLINK-16809034, https://aone.alibaba-inc.com/issue/16809034
+=======
+>>>>>>> upstream/blink
       // "q80",
       "q81", "q82", "q83", "q84", "q85", "q86", "q87", "q88", "q89", "q90",
       "q91", "q92", "q93", "q94", "q95", "q96", "q97", "q98", "q99"

@@ -37,7 +37,10 @@ class IfCallGen() extends CallGenerator {
     // Inferred return type is ARG1. Must be the same as ARG2.
     // This is a temporary solution which introduce type cast in codegen.
     // Not elegant, but can allow IF function to handle different numeric type arguments.
+<<<<<<< HEAD
     // See https://aone.alibaba-inc.com/code/D609969 for affected code.
+=======
+>>>>>>> upstream/blink
     val castedResultTerm1 = CodeGenUtils.getNumericCastedResultTerm(operands(1), returnType)
     val castedResultTerm2 = CodeGenUtils.getNumericCastedResultTerm(operands(2), returnType)
     if (castedResultTerm1 == null || castedResultTerm2 == null) {

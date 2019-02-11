@@ -227,8 +227,11 @@ class CacheAwareRelNodePlanBuilderTest(
     tableEnv.execute("write to sink 0")
   }
 
+<<<<<<< HEAD
   // FIXME https://aone.alibaba-inc.com/task/18478823
 
+=======
+>>>>>>> upstream/blink
   // following test cases verify the plans
   @Test
   def testPlanPersistSimple(): Unit = {

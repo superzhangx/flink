@@ -23,6 +23,10 @@
       {{ logName }}
     </nz-breadcrumb-item>
   </nz-breadcrumb>
+<<<<<<< HEAD
   <nz-pagination [nzPageIndex]="pageIndex" (nzPageIndexChange)="pageIndexChanged($event)" [nzTotal]="pageTotal" [nzSize]="'small'"></nz-pagination>
+=======
+  <nz-pagination [nzPageIndex]="pageIndex" (nzPageIndexChange)="pageIndexChanged($event)" [nzTotal]="pageTotal" [nzSize]="'small'" [nzPageSize]="1"></nz-pagination>
+>>>>>>> upstream/blink
 </div>
 <nz-monaco-editor [nzReadOnly]="true"  [nzValue]="logs" [nzTheme]="configService.theme"></nz-monaco-editor>

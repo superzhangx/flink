@@ -93,7 +93,10 @@ class SetOperatorsTest extends TableTestBase {
     util.verifyPlan(result)
   }
 
+<<<<<<< HEAD
   // TODO support minus all https://aone.alibaba-inc.com/req/14020207.
+=======
+>>>>>>> upstream/blink
   @Ignore
   @Test
   def testFilterMinusTranspose(): Unit = {
@@ -123,7 +126,10 @@ class SetOperatorsTest extends TableTestBase {
 
   }
 
+<<<<<<< HEAD
   // TODO support minus all https://aone.alibaba-inc.com/req/14020207.
+=======
+>>>>>>> upstream/blink
   @Ignore
   @Test
   def testProjectMinusTranspose(): Unit = {
